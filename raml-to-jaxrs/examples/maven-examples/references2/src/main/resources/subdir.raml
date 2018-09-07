@@ -1,0 +1,12 @@
+#%RAML 1.0
+
+title: Subdir API
+
+types:
+  subdir1: !include subdir1.json
+
+/subdir:
+  post:
+    body:
+      application/json:
+        schema: subdir1

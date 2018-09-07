@@ -30,6 +30,7 @@
         <module>simple-raml08</module>
         <module>features</module>
         <module>references</module>
+        <module>references2</module>
         <module>type-torture-test</module>
     </modules>
     <build>
